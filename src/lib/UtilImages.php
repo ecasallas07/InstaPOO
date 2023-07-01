@@ -4,7 +4,7 @@ namespace Ecasa\Instagram\lib;
 
 class UtilImages{
 
-    public static function stroeTime(array $photo) : string
+    public static function storeImage(array $photo) : string
     {
         $target_dir = "public/img/photos"; //ruta donde se guardar la imagen
         $extarr = explode('.',$photo["name"]);
