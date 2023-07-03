@@ -1,6 +1,6 @@
 <?php
-
 namespace Ecasa\Instagram\lib;
+use Ecasa\Instagram\lib\Database;
 
 class Model{
     private Database $db;

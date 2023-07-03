@@ -1,2 +1,600 @@
 [29-Jun-2023 06:01:04 Europe/Berlin] Helllo, errors!
 [29-Jun-2023 06:01:30 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:37:37 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:38:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:38:47 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:40:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:09 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:10 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:10 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:18 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:32 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:42:32 Europe/Berlin] PHP Warning:  Undefined array key "CHARSET" in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php on line 20
+[03-Jul-2023 18:42:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property Ecasa\Instagram\lib\Database::$charset of type string in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php:20
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Model.php(10): Ecasa\Instagram\lib\Database->__construct()
+#1 C:\xampp\htdocs\INSTAGRAM\src\models\User.php(17): Ecasa\Instagram\lib\Model->__construct()
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\signup.php(26): Ecasa\Instagram\models\User->__construct('Administrador', 'admin')
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(28): Ecasa\Instagram\controllers\Signup->register()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(48): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php on line 20
+[03-Jul-2023 18:44:41 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:41 Europe/Berlin] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[03-Jul-2023 18:44:41 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:47 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:49 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:49 Europe/Berlin] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[03-Jul-2023 18:44:49 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:44:54 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:45:05 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:45:05 Europe/Berlin] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[03-Jul-2023 18:45:05 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:47:54 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:47:55 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:47:57 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:48:00 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:48:58 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:48:58 Europe/Berlin] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php on line 21
+[03-Jul-2023 18:48:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property Ecasa\Instagram\lib\Database::$port of type string in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php:21
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Model.php(10): Ecasa\Instagram\lib\Database->__construct()
+#1 C:\xampp\htdocs\INSTAGRAM\src\models\User.php(17): Ecasa\Instagram\lib\Model->__construct()
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\signup.php(26): Ecasa\Instagram\models\User->__construct('Adminis', 'admin')
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(28): Ecasa\Instagram\controllers\Signup->register()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(48): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\Database.php on line 21
+[03-Jul-2023 18:49:18 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:49:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:49:26 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:49:26 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:49:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:00 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:01 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:01 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:01 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:01 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:55:03 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:00 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:10 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:11 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:56:48 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:34 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:36 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:38 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:38 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:40 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:42 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:46 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 18:58:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property Ecasa\Instagram\lib\Model::$db must not be accessed before initialization in C:\xampp\htdocs\INSTAGRAM\src\lib\Model.php:20
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\models\User.php(28): Ecasa\Instagram\lib\Model->prepare('INSERT INTO use...')
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\signup.php(28): Ecasa\Instagram\models\User->save()
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(28): Ecasa\Instagram\controllers\Signup->register()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(48): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\Model.php on line 20
+[03-Jul-2023 19:00:05 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:00:05 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:49 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:51 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:51 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:54 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:13:58 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:14:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:14:11 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:14:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:20 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:23 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:24 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:24 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:37 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:20:37 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 19:55:58 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:17 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:25 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:26 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:26 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:27 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:29 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:32 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:32 Europe/Berlin] User not found
+[03-Jul-2023 22:53:32 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:40 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 22:53:40 Europe/Berlin] User logged in
+[03-Jul-2023 22:53:40 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:37 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:40 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:42 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:43 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:43 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:43 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:43 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:43 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:44 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:45 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:48 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:50 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:13:53 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:55 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:55 Europe/Berlin] User logged in
+[03-Jul-2023 23:13:55 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:13:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\controllers\Home::register() in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:36
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 36
+[03-Jul-2023 23:15:10 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:11 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:12 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:12 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:12 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:12 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:12 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:13 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:14 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:15:14 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:50 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:50 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:18:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:18:52 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:52 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:18:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:18:56 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:57 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:58 Europe/Berlin] User logged in
+[03-Jul-2023 23:18:58 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:18:58 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:18:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:19:00 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:19:00 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:19:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:19:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:19:04 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:19:08 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:19:08 Europe/Berlin] User logged in
+[03-Jul-2023 23:19:08 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:19:08 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:19:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:8
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 8
+[03-Jul-2023 23:20:18 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:18 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:18 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:18 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Warning:  require(src/views/home/inxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/inxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/inxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/inxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:49 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:49 Europe/Berlin] PHP Warning:  require(src/views/home/indxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/indxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/indxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/indxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:51 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:54 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:55 Europe/Berlin] User logged in
+[03-Jul-2023 23:20:55 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:55 Europe/Berlin] PHP Warning:  require(src/views/home/indxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/indxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/indxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/indxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:20:56 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:20:58 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:21:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:21:02 Europe/Berlin] User logged in
+[03-Jul-2023 23:21:02 Europe/Berlin] Helllo, errors!
+[03-Jul-2023 23:21:02 Europe/Berlin] PHP Warning:  require(src/views/home/indxes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:21:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'src/views/home/indxes.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php:9
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/indxes', Array)
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(17): Ecasa\Instagram\lib\Controller->render('home/indxes', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(53): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\View.php on line 9
+[03-Jul-2023 23:21:25 Europe/Berlin] Helllo, errors!
+[04-Jul-2023 01:01:11 Europe/Berlin] Helllo, errors!

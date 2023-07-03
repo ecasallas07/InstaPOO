@@ -2,6 +2,7 @@
 
 namespace Ecasa\Instagram\models;
 use Ecasa\Instagram\lib\Model;
+use Ecasa\Instagram\lib\Database;
 
 use PDO;
 use PDOException;
@@ -14,6 +15,7 @@ class User extends Model{
     
     public function __construct(private string $username, private string $password)
     {
+        parent::__construct();
         $this->posts = [];
         $this->profile = "";
         $this->id = -1;
@@ -41,6 +43,55 @@ class User extends Model{
    private function getHashedPassword($password){
         return password_hash($password, PASSWORD_DEFAULT,['cost' => 10]);
    }
+
+
+   public static function exists($username)  //Con static no se puede usar la variable $this cuando se pone static es porque no se necesita instanciar la funcion, por eso se laam con los dos puntos ejemplo User::exists
+   {
+     try{
+          $db = new Database();
+          $query = $db->connect()->prepare('SELECT username FROM users WHERE username = :username');
+          $query->execute(['username' => $username]);
+
+          // contar el numero de filas
+          if($query->rowCount() > 0)
+          {
+               return true;
+          }else{
+               return false;
+          }
+     }catch(PDOException $e){
+          error_log($e->getMessage());
+          return false;
+     }
+   }
+
+   public static function getUser($username): User
+   {
+     try{
+          $db = new Database();
+          $query = $db->connect()->prepare('SELECT * FROM users WHERE username = :username');
+          $query->execute(['username' => $username]);
+
+          // Guardar en una variable la informacion de la consulta
+          $data = $query->fetch(PDO::FETCH_ASSOC);
+          $user = new User($data['username'], $data['password']);
+          $user->setId($data['user_id']);
+          $user->setProfile($data['profile']);
+          
+          return $user;
+     }catch(PDOException $e){
+          error_log($e->getMessage());
+          return $user;
+     }
+   }
+
+   public function comparePassword(string $password): bool {
+     return password_verify($password, $this->password);
+   }
+
+
+
+
 
    public function getId()
    {

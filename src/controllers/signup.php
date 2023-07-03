@@ -22,7 +22,7 @@ class Signup extends Controller{
 
         if(!is_null($username) && !is_null($password) && !is_null($profile))
         {
-            $pitureName = UtilImages::storeImage($profile);
+            $pictureName = UtilImages::storeImage($profile);
             $user = new User($username,$password);
             $user->setProfile($pictureName);
             $user->save();

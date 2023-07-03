@@ -1,4 +1,7 @@
 <?php
+use Ecasa\Instagram\controllers\Signup;
+use Ecasa\Instagram\controllers\Login;
+use Ecasa\Instagram\controllers\Home;
 
 $router = new \Bramus\Router\Router();
 session_start();
@@ -9,20 +12,28 @@ $dotenv->load();
 $router->get('/',function(){
     echo "Inicio";
 });
-$router->get('/loguin',function(){
-    echo "Inicio";
+$router->get('/login',function(){
+    $controller = new Login();
+    $controller->render('login/index');
 });
 $router->post('/auth',function(){
-    echo "Inicio";
+    $controller = new Login();
+    $controller->auth('login/index');
 });
 $router->get('/signup',function(){
-    echo "Inicio";
+
+    $controller = new Signup();
+    $controller->render('signup/index');
+
 });
 $router->post('/register',function(){
-    echo "Inicio";
+    $controller = new Signup();
+    $controller->register();
 });
 $router->get('/home',function(){
-    echo "Inicio";
+    $user = unserialize($_SESSION['user']);
+    $controller = new Home($user);
+    $controller->index();
 });
 $router->post('/publish',function(){
     echo "Inicio";
