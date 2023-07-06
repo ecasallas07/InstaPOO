@@ -21,10 +21,11 @@ class Controller{
     {
         if(!isset($_POST[$param]))
         {
+        
             return null;
         }
 
-        return$_POST[$param];
+        return $_POST[$param];
     }
 
     protected function get(string $param)

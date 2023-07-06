@@ -36,7 +36,10 @@ $router->get('/home',function(){
     $controller->index();
 });
 $router->post('/publish',function(){
-    echo "Inicio";
+    $user = unserialize($_SESSION['user']);
+    $controller = new Home($user);
+    $controller->store();
+    header('location: home');
 });
 $router->get('/profile',function(){
     echo "Inicio";

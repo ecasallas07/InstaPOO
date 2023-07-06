@@ -7,11 +7,12 @@
 </head>
 <body>
     <div class="create">
-        <form action="/INSTAGRAM/publish" method="POST" enctype="multipart/form-data">
+        <form action="/instagram/publish" method="POST" enctype="multipart/form-data">
             <textarea class="form-control mb-2" name="title" rows="3"></textarea>
 
             <div class="d-flex justify-content-between">
-                <input type="file" class="w-50" name="image" accept="image/png, image/jpeg" id="">
+                <input type="file" class="w-50" name="image" > <!--Con el atributo accept como validacion-->
+                <input type="submit" class="btn btn-primary w-25" value="Publicar">
             </div>
         </form>
     </div>

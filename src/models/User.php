@@ -90,7 +90,23 @@ class User extends Model{
    }
 
 
+   public function publish(PostImage $post){
+     try{
+          
+          $query = $this->prepare('INSERT INTO posts (user_id, title, media) VALUES(:user_id, :title, :media)');
+          $query->execute([
+               'user_id' => $this->id,
+               'title'=>$post->getTitle(),
+               'media'=>$post->getImage()
+          ]);
+          
+          return true;
 
+     }catch(PDOException $e){
+          dd(15);
+          return false;
+     }
+   }
 
 
    public function getId()
