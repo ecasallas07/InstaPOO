@@ -34,11 +34,11 @@ class Post extends Model{
         return count($this->likes);
     }
 
-    protected function fetchLikes($post_id){
+    public function fetchLikes(){
         $items=[];
         try{
             $query = $this->prepare("SELECT * FROM likes WHERE post_id = :post_id");
-            $query->execute(['post_id'=>$post_id]);
+            $query->execute(['post_id'=>$this->id]);
 
             while($p = $query->fetch(PDO::FETCH_ASSOC)){
                 $item = new Like($p['post_id'],$p['user_id']);
@@ -47,8 +47,8 @@ class Post extends Model{
 
                 array_push($items,$item);
             }
-
-            return $items;
+            $this->likes = $items;
+            // return $items;
         }catch(PDOException $e){
         }
     }
@@ -58,4 +58,10 @@ class Post extends Model{
         $like->save();
         array_push( $this->likes,$like);
     }
+
+    public function setUser(User $user){
+        $this->user = $user;
+    }
+
+    
 }

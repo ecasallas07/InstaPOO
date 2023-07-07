@@ -64,21 +64,39 @@ class User extends Model{
           return false;
      }
    }
+   public static function getUser($username){
+     try{
+         $db = new Database();
+         $query = $db->connect()->prepare('SELECT * FROM users WHERE username = :username');
+         $query->execute([ 'username' => $username]);
+         $data = $query->fetch(PDO::FETCH_ASSOC);
+         error_log($data['username']);
+         error_log($data['password']);
+         $user = new User($data['username'], $data['password']);
+         $user->setId($data['user_id']);
+         $user->setProfile($data['profile']);
+         return $user;
+     }catch(PDOException $e){
+         return false;
+     }
+ }
 
-   public static function getUser($username): User
+   public static function getById(string $user_id): User
    {
      try{
+     
           $db = new Database();
-          $query = $db->connect()->prepare('SELECT * FROM users WHERE username = :username');
-          $query->execute(['username' => $username]);
-
+          $query = $db->connect()->prepare('SELECT * FROM users WHERE user_id = :user_id');
+          $query->execute(['user_id' => $user_id]);
+          
           // Guardar en una variable la informacion de la consulta
           $data = $query->fetch(PDO::FETCH_ASSOC);
           $user = new User($data['username'], $data['password']);
           $user->setId($data['user_id']);
           $user->setProfile($data['profile']);
-          
           return $user;
+         
+                  
      }catch(PDOException $e){
           error_log($e->getMessage());
           return $user;

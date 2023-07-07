@@ -18,7 +18,7 @@ class Home extends Controller {
 
     public function index(){
         $posts = PostImage::getFeed(); //Cuando se utiliza :: es poque es static el metodo
-        $this->render('home/index',['user' => $this->user]); //Con la función render se envia un parametros a la vista
+        $this->render('home/index',['user' => $this->user,'posts' => $posts]); //Con la función render se envia un parametros a la vista
     }
 
     public function store(){
