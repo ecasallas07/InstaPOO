@@ -3,7 +3,7 @@
 namespace Ecasa\Instagram\models;
 use Ecasa\Instagram\lib\Model;
 use Ecasa\Instagram\lib\Database;
-
+use Ecasa\Instagram\models\PostImage;
 use PDO;
 use PDOException;
 
@@ -121,9 +121,12 @@ class User extends Model{
           return true;
 
      }catch(PDOException $e){
-          dd(15);
           return false;
      }
+   }
+
+   public function fetchPosts(){
+     $this->posts = PostImage::getAll($this->id);
    }
 
 

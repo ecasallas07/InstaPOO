@@ -2677,3 +2677,1866 @@ Stack trace:
 #9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
 #10 {main}
   thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:34:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:34:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:34:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:34:49 Europe/Berlin] Administrador
+[08-Jul-2023 02:34:49 Europe/Berlin] $2y$10$Ai7Qn7MPjSL34ePgMFj1y.C7pvNflJtMLCeMjG2Aa/IidOiZD6DtO
+[08-Jul-2023 02:34:50 Europe/Berlin] User logged in
+[08-Jul-2023 02:34:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:34:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:22
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:35:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 02:35:27 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 02:35:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 02:35:56 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 02:36:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:36:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";" in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:36:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:36:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";" in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:36:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:37:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:37:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:37:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:37:26 Europe/Berlin] Administrador
+[08-Jul-2023 02:37:26 Europe/Berlin] $2y$10$Ai7Qn7MPjSL34ePgMFj1y.C7pvNflJtMLCeMjG2Aa/IidOiZD6DtO
+[08-Jul-2023 02:37:26 Europe/Berlin] User logged in
+[08-Jul-2023 02:37:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:37:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";" in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:38:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type Ecasa\Instagram\models\User as array in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 18
+[08-Jul-2023 02:38:05 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:38:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type Ecasa\Instagram\models\User as array in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 18
+[08-Jul-2023 02:38:12 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 02:38:12 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 02:45:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:46:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Ecasa\Instagram\models\User::$id in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 18
+[08-Jul-2023 02:46:02 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:46:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Ecasa\Instagram\models\User::$id in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 18
+[08-Jul-2023 02:48:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 02:48:16 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:48:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:38 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 11
+[08-Jul-2023 02:49:38 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 12
+[08-Jul-2023 02:49:38 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php:17
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php(17): getimagesize('')
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(29): Ecasa\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(41): Ecasa\Instagram\controllers\Home->store()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 17
+[08-Jul-2023 02:49:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:42 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 11
+[08-Jul-2023 02:49:42 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 12
+[08-Jul-2023 02:49:42 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php:17
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php(17): getimagesize('')
+#1 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(29): Ecasa\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(41): Ecasa\Instagram\controllers\Home->store()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\UtilImages.php on line 17
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:49:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:18 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type Ecasa\Instagram\models\PostImage as array in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:22
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 22
+[08-Jul-2023 02:50:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 02:50:41 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 02:50:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 02:50:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 02:50:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 02:50:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 02:50:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:14:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:14:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:14:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:14:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:21:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:21:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:23:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:23:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:34:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:34:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getUser() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:34:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:34:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getUser() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:37:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:37:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getProfile() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:24
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 24
+[08-Jul-2023 03:37:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] PHP Warning:  Undefined property: Ecasa\Instagram\models\PostImage::$profile in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php on line 73
+[08-Jul-2023 03:41:48 Europe/Berlin] PHP Warning:  Undefined property: Ecasa\Instagram\models\PostImage::$profile in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php on line 73
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:41:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:05 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getUser() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\PostImage::getUser() in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php on line 23
+[08-Jul-2023 03:42:09 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] PHP Warning:  Undefined property: Ecasa\Instagram\models\PostImage::$profile in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php on line 73
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:12 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] PHP Warning:  Undefined property: Ecasa\Instagram\models\PostImage::$profile in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php on line 73
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:42:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:47:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:47:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property Ecasa\Instagram\models\Post::$profile must not be accessed before initialization in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php:73
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\views\home\index.php(24): Ecasa\Instagram\models\Post->getProfile()
+#1 C:\xampp\htdocs\INSTAGRAM\src\lib\View.php(9): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\INSTAGRAM\src\lib\Controller.php(17): Ecasa\Instagram\lib\View->render('home/index', Array)
+#3 C:\xampp\htdocs\INSTAGRAM\src\controllers\Home.php(21): Ecasa\Instagram\lib\Controller->render('home/index', Array)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(36): Ecasa\Instagram\controllers\Home->index()
+#5 [internal function]: {closure}()
+#6 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#8 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#9 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(56): Bramus\Router\Router->run()
+#10 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\models\Post.php on line 73
+[08-Jul-2023 03:47:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:48:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 03:54:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:22:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:03 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:05 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:39:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:40:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:32 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:40:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:41:45 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:41:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:41:59 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:42:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:42:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:42:20 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:42:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:42:38 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:42:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:42:55 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:43:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:43:08 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:43:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:43:54 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:43:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:43:57 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:44:43 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:44:43 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:44:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:44:46 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:09 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:45:11 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:45:33 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:45:33 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:45:39 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:45:39 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:45:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:45:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:46:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:46:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:46:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:46:50 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:47:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:47:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function addLike() on null in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php:26
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(52): Ecasa\Instagram\controllers\actions->like()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(60): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Actions.php on line 26
+[08-Jul-2023 04:47:52 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:47:52 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:48:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:52 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:48:52 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:33 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:49:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 141
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 146
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 151
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 156
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 109
+[08-Jul-2023 04:51:22 Europe/Berlin] PHP Deprecated:  Return type of Symfony\Component\VarDumper\Cloner\Data::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\INSTAGRAM\vendor\symfony\var-dumper\Cloner\Data.php on line 114
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 04:52:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:11 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:15 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:16 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:41:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Profile" not found in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php:48
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 48
+[08-Jul-2023 05:42:03 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:04 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:42:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:04 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:42:05 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:10 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:42:10 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:45:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:45:25 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:45:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:45:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:45:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:45:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:45:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:45:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Ecasa\Instagram\controllers\Profile::getUserProfile(), 0 passed in C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php on line 51 and exactly 1 expected in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:14
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(51): Ecasa\Instagram\controllers\Profile->getUserProfile()
+#1 [internal function]: {closure}()
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 14
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(64): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(66): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:26 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:53:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:55:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 05:56:04 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:21 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:22 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:23 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:24 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:33 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:34 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:35 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:36 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:55 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:56 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:15:59 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:06 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:07 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:37 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:38 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:45 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:50 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:16:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:12 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:12 Europe/Berlin] Administrador
+[08-Jul-2023 06:17:12 Europe/Berlin] $2y$10$Ai7Qn7MPjSL34ePgMFj1y.C7pvNflJtMLCeMjG2Aa/IidOiZD6DtO
+[08-Jul-2023 06:17:13 Europe/Berlin] User logged in
+[08-Jul-2023 06:17:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:13 Europe/Berlin] User not found
+[08-Jul-2023 06:17:13 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:14 Europe/Berlin] User not found
+[08-Jul-2023 06:17:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:14 Europe/Berlin] User not found
+[08-Jul-2023 06:17:14 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:19 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:19 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:53 Europe/Berlin] Administrador
+[08-Jul-2023 06:17:53 Europe/Berlin] $2y$10$Ai7Qn7MPjSL34ePgMFj1y.C7pvNflJtMLCeMjG2Aa/IidOiZD6DtO
+[08-Jul-2023 06:17:53 Europe/Berlin] User logged in
+[08-Jul-2023 06:17:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:17:54 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:18:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:40 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:23:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Ecasa\Instagram\models\User::get() in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php:19
+Stack trace:
+#0 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(87): Ecasa\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#1 [internal function]: {closure}('public/img/phot...')
+#2 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#4 C:\xampp\htdocs\INSTAGRAM\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#5 C:\xampp\htdocs\INSTAGRAM\src\lib\routes.php(89): Bramus\Router\Router->run()
+#6 C:\xampp\htdocs\INSTAGRAM\index.php(13): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\INSTAGRAM\src\controllers\Profile.php on line 19
+[08-Jul-2023 06:24:41 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:42 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:46 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:48 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:49 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:24:51 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:27 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:26:31 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:57 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:27:58 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:28:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:28:00 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:25 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:28 Europe/Berlin] Administrador
+[08-Jul-2023 06:29:28 Europe/Berlin] $2y$10$Ai7Qn7MPjSL34ePgMFj1y.C7pvNflJtMLCeMjG2Aa/IidOiZD6DtO
+[08-Jul-2023 06:29:28 Europe/Berlin] User logged in
+[08-Jul-2023 06:29:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:28 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:29 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:29:44 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:30:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:30:47 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:30:53 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:31:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:31:08 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:31:20 Europe/Berlin] Helllo, errors!
+[08-Jul-2023 06:32:40 Europe/Berlin] Helllo, errors!

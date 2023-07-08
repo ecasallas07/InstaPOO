@@ -4,6 +4,7 @@ namespace Ecasa\Instagram\models;
 
 use Ecasa\Instagram\lib\Model;
 use Ecasa\Instagram\lib\Database;
+use Ecasa\Instagram\models\User;
 use PDO;
 use PDOException;
 
@@ -12,6 +13,7 @@ class Post extends Model{
     private string $id;
     private array $likes;
     private User $user;
+    private  $profile;
 
     protected function __construct(private string $title){
         parent::__construct();
@@ -53,7 +55,8 @@ class Post extends Model{
         }
     }
 
-    protected function addLike(User $user){
+   public function addLike(User $user){
+    
         $like = new Like($this->id,$user->getId());
         $like->save();
         array_push( $this->likes,$like);
@@ -62,6 +65,15 @@ class Post extends Model{
     public function setUser(User $user){
         $this->user = $user;
     }
+    
+    public function getUser(){
+        return $this->user;
+    } 
 
+    public function getProfile(){
+        return $this->profile;
+    }
+
+  
     
 }
